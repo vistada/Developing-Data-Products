@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Data Exploration Framework</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/serif.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  
+  <h2 align='left'> Data Exploration Tool </h2>
+
+<p><br><br><br></p>
+
+<h3> Course project for</h3>
+
+<h3> Developing Data Products</h3>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h2>What does this tool do?</h2>
+  <p><br><br></p>
+
+<h3>This tool is developed to be used to explore data quickly and easily. The user interface is very intuitive so that a new user can quickly adapt and explore data without the pain of learning how to use a sophisticated software. Simpicity of this tool, however, does not compromise the needed funtionality of data exploration.</h3>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h2>Distinguishing character of this tool</h2>
+  <ol>
+<li><p>Visualization : &quot;A picture is worth thousand words!&quot; This tool provide a number of ways to visualize data.</p></li>
+<li><p>Sandbox : Scientific discipline needs a framework to experiment. This tool allows users to explore and experiment using different options.</p></li>
+<li><p>Summarization : Executives demand summary report, &quot;Just a fact, man!&quot; This tool provides summary statistic of data.</p></li>
+<li><p>Ready access to raw data: Users can dig down the raw data if needed because it provides window to view the entire raw data.</p></li>
+</ol>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h3>Use case of Galton Height data</h3>
+  <p><img src="assets/img/galton.png" alt="app layout" style="width: 950px;"/></p>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h3>Quick user&#39;s guide</h3>
+  <p>As shown in the Galton&#39;s Height Data example, the tool has 5 panels in which users can view variety of plots. The screenshot shows Sunflower plot of Parent v. Child height. The next panel show histogram of either Parent or Child height. Summary panel shows summary statistic of data. Table panel allows user to view entire raw data. Documentation panel provides documentation.</p>
+
+<p>That is all, folks! Now, you know everything you need to know about this tool. You are ready to explore data.</p>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'serif', 
+    transition: Reveal.getQueryHash().transition || 'default', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
